@@ -2,6 +2,10 @@ package inheritance.learning;
 
 import java.util.Date;
 
+/* Java Assignment
+14. Create class Director which will extend the Manager and will have hourly rate, allowance
+and bonus and override getSalary to include bonus
+ */
 public class Director extends Manager{
     private double bonus;
 

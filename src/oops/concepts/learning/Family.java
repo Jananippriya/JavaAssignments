@@ -1,10 +1,23 @@
 package oops.concepts.learning;
 
+
+/* Java Assignment
+2. Write a simple class Family, it should have following variables
+
+        * FatherName, MotherName, SonName, DaughterName
+        * FatherSalary, MotherSalary, SonFee, DaughterFee
+        * Grocery (hard coded value – 500)
+        Write a constructor to create Family
+        Write a method just to display all family members name, call it displayNames()
+        Write method in class which should return total salary, call it getTotalSalary()
+        Write method in class which should return total fees, call it getTotalFee()
+        Write a method which should return the total savings after removing all expenses getSavings();
+        Write a method using if else which should check if savings are > 1000, it should display the
+        message “Congratulation!! FatherName you saved this much = savings value”
+        Else “Dear FatherName!! Please try to save for next month”.
+
+ */
 public class Family {
-    //Write a simple class Family, it should have following variables
-    //* FatherName, MotherName, SonName, DaughterName
-    //* FatherSalary, MotherSalary, SonFee, DaughterFee
-    //* Grocery (hard coded value – 500)
     private static final double grocery = 500.0;
     private String fatherName;
     private String motherName;

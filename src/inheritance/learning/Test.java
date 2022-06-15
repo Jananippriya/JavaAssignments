@@ -2,6 +2,9 @@ package inheritance.learning;
 
 import java.util.Date;
 
+/*Java Assignment
+14. Write test class to create an employee, manager, and director,
+ */
 public class Test {
     public static void main(String[] args) {
         Employee emp = new Employee("Janu",12345,"IT",new Date(119,5,12),40);

@@ -2,6 +2,21 @@ package inheritance.learning;
 
 import java.util.Date;
 
+/* Java Assignment
+14. Inherritance - Assignment
+Create a class Employee, which will have following instance variables and methods
+String name;
+int employeeId;
+String dept;
+Date hireDate;
+double hourlyRate;
+String getEmployeeDetails()
+// shoudl return employee details as String with salary details
+//Hint String details = "Employee Name = "+ name + " Id = +id + "Dept "+dept.....
+double getSalary() {
+//write logic for the salary calculation
+}
+ */
 public class Employee {
     private String name;
     private int employeeId;

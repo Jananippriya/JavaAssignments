@@ -2,6 +2,13 @@ package oops.concepts.learning;
 
 import java.util.Scanner;
 
+/* Java Assignment
+3. Problem Statement –
+        The body mass index (BMI) is commonly used by health and nutrition professionals to estimate
+        human body fat in populations. It is computed by taking the individual's weight (mass) in
+        kilograms and dividing it by the square of their height in meters.
+
+ */
 public class BMI {
     public static void calculateBMI(double height, double weight){
         double BMI = weight/(height * height);
