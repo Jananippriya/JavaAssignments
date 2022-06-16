@@ -1,0 +1,4 @@
+Assignment:
+Ex - 3:
+1. a)Since the main method method is present in Oops1 class and is public.
+1. b) c) Class Oops1 is public and class Circle is present in same OOps1.java file. So class circle cannot be public or private.
