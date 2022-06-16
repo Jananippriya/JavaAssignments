@@ -4,6 +4,11 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
+
+/* Ex-3 Assignment
+2. Class to test Person object
+3. Modify test code to accept name and date using keyboard. Print birthdate in format yyyy/mmm/dd
+ */
 public class TestPerson {
     public static void main(String[] args) {
         System.out.println("Test Person");
@@ -13,7 +18,7 @@ public class TestPerson {
         p.setBirthDate(1990,1,1);
         System.out.println("Name: "+p.getName()+"\n"+"Birth Date: "+p.getBirthDate()+"\n"+"Age: "+p.getAge());
 
-        //Accepting name and bdate using keyboard
+        //Accepting name and birthdate using keyboard
         Scanner sc = new Scanner(System.in);
         Person p1 = new Person();
         System.out.println("Enter your name:");

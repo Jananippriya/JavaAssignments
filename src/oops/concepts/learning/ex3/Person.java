@@ -4,6 +4,10 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+
+/* Ex - 3 Assignment
+1. Create Person objects and compute their age
+ */
 public class Person {
     protected String name;
     protected Date birthDate;
