@@ -1,0 +1,7 @@
+Questions:
+Student s1 = new Student();
+1. What are the variable available for object s1?
+--> studentNum, marks
+6. Modify Test class to call disp() method on student object and person object, calling disp() on student object does it call
+disp() of super class as constructor?
+--> No student object didn't call the disp() method of Person class.
