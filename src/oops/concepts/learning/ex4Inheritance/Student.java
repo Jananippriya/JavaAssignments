@@ -44,10 +44,10 @@ public class Student extends Person {
     }
 
     //disp() method to display all members
-    public void disp(){
+    public void disp() {
         System.out.println("Student:");
-        System.out.println("First Name: "+getFirstName()+"\nLast Name: "+getLastName()+"\nSin Number: "+getSinNum() +
-                "\nStudent Number: "+this.studentNum+"\nMarks: "+this.marks);
+        System.out.println("First Name: " + getFirstName() + "\nLast Name: " + getLastName() + "\nSin Number: " + getSinNum() +
+                "\nStudent Number: " + this.studentNum + "\nMarks: " + this.marks);
     }
 
 }

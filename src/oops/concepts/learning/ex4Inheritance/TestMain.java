@@ -6,8 +6,8 @@ package oops.concepts.learning.ex4Inheritance;
  */
 public class TestMain {
     public static void main(String[] args) {
-        Person p = new Person("Janani","Priya",12345);
-        Student s = new Student("abc","def",9876,1,100);
+        Person p = new Person("Janani", "Priya", 12345);
+        Student s = new Student("abc", "def", 9876, 1, 100);
         p.disp();
         s.disp();
 

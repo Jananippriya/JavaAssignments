@@ -46,7 +46,7 @@ public class Person {
     }
 
     //disp() method to display all members
-    public void disp(){
-        System.out.println("First Name: "+this.firstName+"\nLast Name: "+this.lastName+"\nSin Number: "+this.sinNum);
+    public void disp() {
+        System.out.println("First Name: " + this.firstName + "\nLast Name: " + this.lastName + "\nSin Number: " + this.sinNum);
     }
 }

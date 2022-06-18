@@ -7,7 +7,7 @@ Ex - 4 Polymorphism Assignment
 public class TestPoly {
     public static void main(String[] args) {
         //Creating objects using loose coupling
-        MobileBase mobile1,mobile2,mobile3,mobile1a, mobile1b;
+        MobileBase mobile1, mobile2, mobile3, mobile1a, mobile1b;
         mobile1 = new IPhone("IPhone", 500);
         mobile2 = new Samsung("Samsung", 500);
         mobile3 = new Blackberry("Blackberry", 500);

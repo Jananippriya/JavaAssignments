@@ -4,7 +4,7 @@ package oops.concepts.learning.ex4polymorphism.q3;
 Ex - 4 Polymorphism Assignment
 3.
  */
-public class XIPhone extends IPhone{
+public class XIPhone extends IPhone {
 
     public XIPhone() {
         System.out.println("Constructing XIPhone");
