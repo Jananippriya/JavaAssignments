@@ -6,10 +6,12 @@ Ex - 4 Polymorphism Assignment
  */
 public class XIPhone extends IPhone {
 
+    //default constructor
     public XIPhone() {
         System.out.println("Constructing XIPhone");
     }
 
+    //parametrized constructor
     public XIPhone(String modelName, int price) {
         super(modelName, price);
         System.out.println("Constructing XIPhone with params");
