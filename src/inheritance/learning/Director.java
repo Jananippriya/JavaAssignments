@@ -16,6 +16,7 @@ public class Director extends Manager{
 
     @Override
     public double getSalary() {
+        int a = 4;
         return super.getSalary() + bonus;
     }
 }
