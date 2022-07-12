@@ -10,7 +10,9 @@ public class CodingBatFunctional1 {
         List<String> strings = Arrays.asList("Apple", "Ball", "Cat", "", "Doll", "Egg", "Flag");
         List<Integer> nums1 = Arrays.asList(1627, 221, 3245, 423, 5, 632, 875637);
         List<String> stringX = Arrays.asList("axbxc", "xcatx", "xxapple", "code", "xjxaxvxxax");
+
         CodingBatFunctional1 obj = new CodingBatFunctional1();
+
         System.out.println("Doubling of integer list: " + obj.doubling(nums));
         System.out.println("Squaring of integer list: " + obj.square(nums));
         System.out.println("Adding star * to list: " + obj.addStar(strings));
@@ -47,7 +49,7 @@ public class CodingBatFunctional1 {
     Given a list of strings, return a list where each string is replaced by 3 copies of the string concatenated together.
      */
     public List<String> copies3(List<String> strings) {
-        return strings.stream().map(s -> s + s + s).collect(Collectors.toList());
+        return strings.stream().map(s -> s.repeat(3)).collect(Collectors.toList());
     }
 
     /*
